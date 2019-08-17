@@ -20,12 +20,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
+<!--        Must add module of bom-->
+        <module>bom</module>
         <module>thread-study</module>
     </modules>
 
     <properties>
 
-        <revision>0.0.1</revision>
+        <revision>0.0.2</revision>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -86,6 +88,8 @@
                 <groupId>com.tom.study</groupId>
                 <artifactId>bom</artifactId>
                 <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

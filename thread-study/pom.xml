@@ -8,9 +8,8 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>thread-tudy</artifactId>
+    <artifactId>thread-study</artifactId>
     <packaging>pom</packaging>
-
 
 
 </project>
