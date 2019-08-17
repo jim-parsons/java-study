@@ -9,6 +9,8 @@
     </parent>
 
     <artifactId>thread-tudy</artifactId>
+    <packaging>pom</packaging>
+
 
 
 </project>

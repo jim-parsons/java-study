@@ -30,6 +30,7 @@
 
         <!--        28.0-jre-->
         <guava.version>27.0.1-jre</guava.version>
+        <disruptor.version>3.3.11</disruptor.version>
     </properties>
 
     <dependencyManagement>
@@ -63,6 +64,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>${disruptor.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
