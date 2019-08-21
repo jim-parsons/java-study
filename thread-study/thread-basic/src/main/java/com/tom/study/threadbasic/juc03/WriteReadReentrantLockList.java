@@ -15,11 +15,11 @@ public class WriteReadReentrantLockList {
 
     private static final ReentrantReadWriteLock rootLock = new ReentrantReadWriteLock();
 
-    public Lock getWriteLock() {
+    private Lock getWriteLock() {
         return rootLock.writeLock();
     }
 
-    public Lock getReadLock() {
+    private Lock getReadLock() {
         return rootLock.readLock();
     }
 
