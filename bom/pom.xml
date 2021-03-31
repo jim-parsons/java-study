@@ -22,7 +22,7 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
 
         <!--        28.0-jre-->
-        <guava.version>27.0.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <disruptor.version>3.3.11</disruptor.version>
     </properties>
 
